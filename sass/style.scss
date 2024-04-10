@@ -1,0 +1,27 @@
+@import "./utilities/mixins";
+@import "./utilities/maps";
+
+
+@import "./base/reset";
+
+
+@import "./layout/header";
+
+@import "./layout/main-index";
+
+@import "./layout/main-zapatillas";
+@import "./layout/main-ropa";
+@import "./layout/main-accesorios";
+@import "./layout/main-contactos";
+@import "./layout/fondo-nike";
+@import "./layout/fondo-inicial";
+
+@media (max-width: 768px){
+    @import "./layout/mediaQuerry/media768";
+}
+
+@media (max-width: 320px){
+    @import "./layout/mediaQuerry/media320";
+}
+
+@import "./layout/footer";

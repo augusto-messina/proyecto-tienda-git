@@ -1,0 +1,13 @@
+.pie-pagina{
+    background-image: linear-gradient(to right, rgba(172, 170, 170, 0.884) , rgba(177, 177, 175, 0.788));
+    padding: 100px;
+    width: 100%;
+    height: 300px;
+    li{
+        list-style: none;
+    }
+    .content-items-footer{
+        display: flex;
+        justify-content: space-evenly
+    }
+}

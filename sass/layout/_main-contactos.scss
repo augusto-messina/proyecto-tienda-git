@@ -1,0 +1,53 @@
+/*formulario*/
+
+
+.form-register{
+    width: 400px;
+    background-color: #6b6b6b;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white;
+    h4{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .botons{
+        width: 100%;
+        background:rgb(64, 64, 170) ;
+        border: none;
+        padding: 12px;
+        color: white;
+        margin: 16px 0;
+        font-size: 15px;
+        border-radius: 3px;
+    }
+    .controls{
+        width: 100%;
+        background: white;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid rgb(15, 15, 15);
+    }
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+}
+.body-contactos{
+    background-image: url(../assets/img/fondo/fondo.avif);
+    background-position: center;
+}

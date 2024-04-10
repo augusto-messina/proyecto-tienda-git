@@ -1,0 +1,56 @@
+@media (max-width: 320px){
+    .grid-zapatillas{
+        .content-images{
+            display: block;
+        }
+        .zapatilla{
+            margin-bottom: 15px;
+        }
+    }
+    .grid-zapatillas-pag{
+        .content-images-p{
+            display: block;
+        }
+        .zapatilla-p{
+            margin-bottom: 15px;
+            height: 100%;
+        }
+    }
+    .grid-accesorios-pag{
+        .content-images-p{
+            display: block;
+        }
+        .accesorio{
+            margin-bottom: 15px;
+        }
+    }
+    .grid-ropa-pagina{
+        .content-images-p{
+            display: block;
+        }
+        .ropa{
+            margin-bottom: 15px;
+        }
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .pie-pagina {
+        padding: 10px;
+        height: 200px;
+        font-size: 15px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    .content-items-footer {
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 20px;
+        position: relative;
+        right: 4.6875rem;
+    }
+}
