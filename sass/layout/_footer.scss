@@ -3,11 +3,20 @@
     padding: 100px;
     width: 100%;
     height: 300px;
+    ul p{
+        font-size: 20px;
+    }
     li{
         list-style: none;
+        font-size: 20px
+        
+    }
+    li a{
+        font-size: 25px;
     }
     .content-items-footer{
         display: flex;
         justify-content: space-evenly
     }
 }
+

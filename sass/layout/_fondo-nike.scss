@@ -3,6 +3,33 @@
     background-color: rgb(247, 247, 247);
     height: 100%;
     height: 600px;
-    background-position: center;
+    background-size: cover;
+    background-position: 0% 80%;
     margin-top: 20px;
+}
+
+.fondo-nike{
+    background-image: url(../assets/img/imagen-nike-ropa.jpg);
+    background-color: rgb(247, 247, 247);
+    height: 100%;
+    height: 350px;
+    background-size: contain;
+    margin-bottom: 20px;
+
+}
+.fondo-nike-2{
+    background-image: url(../assets/img/imagen-nike-accesorios.jpg);
+    background-color: rgb(247, 247, 247);
+    height: 100%;
+    height: 350px;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+.fondo-adidas{
+    background-image: url(../assets/img/fondo/adidas-1.jpg);
+    background-color: rgb(247, 247, 247);
+    height: 100%;
+    height: 350px;
+    background-size: contain;
+    margin-bottom: 20px;
 }

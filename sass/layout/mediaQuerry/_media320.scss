@@ -1,36 +1,10 @@
 @media (max-width: 320px){
-    .grid-zapatillas{
-        .content-images{
-            display: block;
-        }
-        .zapatilla{
-            margin-bottom: 15px;
-        }
+    .card-img-ropa{
+        height: 300px;
+        width: 100%;
     }
-    .grid-zapatillas-pag{
-        .content-images-p{
-            display: block;
-        }
-        .zapatilla-p{
-            margin-bottom: 15px;
-            height: 100%;
-        }
-    }
-    .grid-accesorios-pag{
-        .content-images-p{
-            display: block;
-        }
-        .accesorio{
-            margin-bottom: 15px;
-        }
-    }
-    .grid-ropa-pagina{
-        .content-images-p{
-            display: block;
-        }
-        .ropa{
-            margin-bottom: 15px;
-        }
+    .fondo-inicial{
+        background-image: url(../assets/img/fondo-ini/vestidor.jpeg);
     }
     .desktop{
         display: none;
@@ -53,4 +27,7 @@
         position: relative;
         right: 4.6875rem;
     }
+
 }
+
+

@@ -1,35 +1,54 @@
 /*zapatillas index*/
 
+
 .titulo-zapatillas{
     text-align: center;
+    margin-top: 4.375rem;
     font-size: 30px;
-    color: map-get($colores , color1 );
+    display: flex;
+    flex-direction: column;
+    color: map-get($colores, color1 );
+    font-family: 'Nike', sans-serif;
 }
 
-.grid-zapatillas{
-    @include flex (center);
-    width: 100%;
-    padding: 0 10%;
-    margin: 50px 0;
-    .content-images{
-        display: grid;
-        gap: 30px;
-        grid-template-columns: repeat(3, 1fr);
-        width: 100%;
-        height: 100%;
-    }
-    .zapatilla{
-        height:  100%;
-        width: 100%;
-        background-color: map-get($colores , color2 );
-        border-radius: 20px;
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+    .card{
+        border-radius: 30px;
         box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-        overflow: hidden;
     }
-    .zapatilla:hover{
-        transform: scale(1.1)
+    .card-title{
+        font-size: 20px;
+    }
+    .card-img-top{
+        border-radius: 50px;
+        padding: 20px;
+    }
+    .btn-primary:hover{
+        background-color: white;
+        border: none;
+    }
+    h3,h5{
+        color: rgb(12, 12, 12);
     }
 }
+.boton{
+    border: 1px solid white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    color: #B31312;
+    .boton:hover{
+        background-color: #B31312;
+        color: white;
+    }
+}
+
+
+
 
 
 /*ropaindex*/

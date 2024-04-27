@@ -24,34 +24,49 @@
 /*zapatillas index*/
 .titulo-zapatillas {
   text-align: center;
+  margin-top: 4.375rem;
   font-size: 30px;
+  display: flex;
+  flex-direction: column;
   color: #B31312;
+  font-family: "Nike", sans-serif;
 }
 
-.grid-zapatillas {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: 0 10%;
-  margin: 50px 0;
+.card-body {
+  padding: 25px;
+  margin-top: -15px;
 }
-.grid-zapatillas .content-images {
-  display: grid;
-  gap: 30px;
-  grid-template-columns: repeat(3, 1fr);
-  width: 100%;
-  height: 100%;
-}
-.grid-zapatillas .zapatilla {
-  height: 100%;
-  width: 100%;
-  background-color: #B2B0B0;
-  border-radius: 20px;
+.card-body .card {
+  border-radius: 30px;
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-  overflow: hidden;
 }
-.grid-zapatillas .zapatilla:hover {
-  transform: scale(1.1);
+.card-body .card-title {
+  font-size: 20px;
+}
+.card-body .card-img-top {
+  border-radius: 50px;
+  padding: 20px;
+}
+.card-body .btn-primary:hover {
+  background-color: white;
+  border: none;
+}
+.card-body h3, .card-body h5 {
+  color: rgb(12, 12, 12);
+}
+
+.boton {
+  border: 1px solid white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  color: #B31312;
+}
+.boton .boton:hover {
+  background-color: #B31312;
+  color: white;
 }
 
 /*ropaindex*/
@@ -115,96 +130,81 @@
 /*zapatillas-pag*/
 .titulo-zapatillas {
   text-align: center;
-  margin-bottom: 20px;
-  margin-top: 10px;
+  margin-top: 4.375rem;
   font-size: 30px;
+  display: flex;
+  flex-direction: column;
   color: #B31312;
+  font-family: "Nike", sans-serif;
 }
 
-.grid-zapatillas-pag {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: 0 10%;
-  margin: 50px 0;
+.boton {
+  border: 1px solid white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  color: #B31312;
 }
-.grid-zapatillas-pag .content-images-p {
-  display: grid;
-  gap: 30px;
-  grid-template-columns: repeat(3, 1fr);
-  width: 100%;
-  height: 100%;
-}
-.grid-zapatillas-pag .zapatilla-p {
-  height: 100%;
-  background-color: #B2B0B0;
-  border-radius: 20px;
-  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-  width: 100%;
+.boton .boton:hover {
+  background-color: #B31312;
+  color: white;
 }
 
 /*ropa pag*/
 .titulo-ropa {
   text-align: center;
-  margin-bottom: 20px;
-  margin-top: 10px;
+  margin-top: 4.375rem;
   font-size: 30px;
+  display: flex;
+  flex-direction: column;
   color: #B31312;
+  font-family: "Nike", sans-serif;
 }
 
-.grid-ropa-pagina {
-  display: flex;
-  justify-content: center;
+.card-img-ropa {
+  height: 370px;
   width: 100%;
-  padding: 0 10%;
-  margin: 50px 0;
 }
-.grid-ropa-pagina .content-images-p {
-  display: grid;
-  gap: 30px;
-  grid-template-columns: repeat(3, 1fr);
-  width: 100%;
-  height: 100%;
+
+.boton {
+  border: 1px solid white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  color: #B31312;
 }
-.grid-ropa-pagina .ropa, .grid-ropa-pagina .accesorio {
-  height: 300px;
-  width: 100%;
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-  object-fit: contain;
+.boton .boton:hover {
+  background-color: #B31312;
+  color: white;
 }
 
 /*accesorios pag*/
 .titulo-accesorios {
   text-align: center;
-  margin-bottom: 20px;
-  margin-top: 10px;
+  margin-top: 4.375rem;
   font-size: 30px;
+  display: flex;
+  flex-direction: column;
   color: #B31312;
+  font-family: "Nike", sans-serif;
 }
 
-.grid-accesorios-pag {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: 0 10%;
-  margin: 50px 0;
+.boton {
+  border: 1px solid white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  color: #B31312;
 }
-.grid-accesorios-pag .content-images-p {
-  display: grid;
-  gap: 30px;
-  grid-template-columns: repeat(3, 1fr);
-  width: 100%;
-  height: 100%;
-}
-.grid-accesorios-pag .ropa, .grid-accesorios-pag .accesorio {
-  height: 300px;
-  width: 100%;
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-  object-fit: contain;
+.boton .boton:hover {
+  background-color: #B31312;
+  color: white;
 }
 
 /*formulario*/
@@ -265,15 +265,44 @@
   background-color: rgb(247, 247, 247);
   height: 100%;
   height: 600px;
-  background-position: center;
+  background-size: cover;
+  background-position: 0% 80%;
   margin-top: 20px;
+}
+
+.fondo-nike {
+  background-image: url(../assets/img/imagen-nike-ropa.jpg);
+  background-color: rgb(247, 247, 247);
+  height: 100%;
+  height: 350px;
+  background-size: contain;
+  margin-bottom: 20px;
+}
+
+.fondo-nike-2 {
+  background-image: url(../assets/img/imagen-nike-accesorios.jpg);
+  background-color: rgb(247, 247, 247);
+  height: 100%;
+  height: 350px;
+  background-size: contain;
+  margin-bottom: 20px;
+}
+
+.fondo-adidas {
+  background-image: url(../assets/img/fondo/adidas-1.jpg);
+  background-color: rgb(247, 247, 247);
+  height: 100%;
+  height: 350px;
+  background-size: contain;
+  margin-bottom: 20px;
 }
 
 .fondo-inicial {
   background-color: rgb(247, 247, 247);
   height: 500px;
   background-image: url(../assets/img/fondo_inicial.jpg);
-  background-position: center;
+  background-size: cover;
+  background-position: 0% 50%;
 }
 
 .boton-buscar {
@@ -286,14 +315,15 @@
 }
 
 @media (max-width: 768px) and (max-width: 768px) {
-  .grid-zapatillas-pag .zapatilla-p {
-    height: 210px;
+  .card-img-ropa {
+    height: 250px;
+    width: 100%;
   }
-  .grid-accesorios-pag .accesorio {
-    height: 210px;
+  .fondo-inicial {
+    background-image: url(../assets/img/fondo-ini/vestidor.jpeg);
   }
-  .grid-ropa-pagina .ropa {
-    height: 210px;
+  .card-title {
+    font-size: 15px;
   }
   .desktop {
     display: none;
@@ -318,30 +348,12 @@
   }
 }
 @media (max-width: 320px) and (max-width: 320px) {
-  .grid-zapatillas .content-images {
-    display: block;
+  .card-img-ropa {
+    height: 300px;
+    width: 100%;
   }
-  .grid-zapatillas .zapatilla {
-    margin-bottom: 15px;
-  }
-  .grid-zapatillas-pag .content-images-p {
-    display: block;
-  }
-  .grid-zapatillas-pag .zapatilla-p {
-    margin-bottom: 15px;
-    height: 100%;
-  }
-  .grid-accesorios-pag .content-images-p {
-    display: block;
-  }
-  .grid-accesorios-pag .accesorio {
-    margin-bottom: 15px;
-  }
-  .grid-ropa-pagina .content-images-p {
-    display: block;
-  }
-  .grid-ropa-pagina .ropa {
-    margin-bottom: 15px;
+  .fondo-inicial {
+    background-image: url(../assets/img/fondo-ini/vestidor.jpeg);
   }
   .desktop {
     display: none;
@@ -371,8 +383,15 @@
   width: 100%;
   height: 300px;
 }
+.pie-pagina ul p {
+  font-size: 20px;
+}
 .pie-pagina li {
   list-style: none;
+  font-size: 20px;
+}
+.pie-pagina li a {
+  font-size: 25px;
 }
 .pie-pagina .content-items-footer {
   display: flex;

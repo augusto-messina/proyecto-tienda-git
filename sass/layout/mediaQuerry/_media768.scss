@@ -1,18 +1,13 @@
 @media (max-width: 768px){
-    .grid-zapatillas-pag{
-        .zapatilla-p{
-            height: 210px;
-        }
+    .card-img-ropa{
+        height: 250px;
+        width: 100%;
     }
-    .grid-accesorios-pag{
-        .accesorio{
-            height: 210px;
-        }
+    .fondo-inicial{
+        background-image: url(../assets/img/fondo-ini/vestidor.jpeg);
     }
-    .grid-ropa-pagina{
-        .ropa{
-            height: 210px;
-        }
+    .card-title{
+        font-size: 15px;
     }
     .desktop{
         display: none;
@@ -35,4 +30,5 @@
         position: relative;
         right: 4.6875rem;
     }
+
 }
