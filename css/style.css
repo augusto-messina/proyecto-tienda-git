@@ -23,11 +23,11 @@
 
 /*zapatillas index*/
 .titulo-zapatillas {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   margin-top: 4.375rem;
   font-size: 30px;
-  display: flex;
-  flex-direction: column;
   color: #B31312;
   font-family: "Nike", sans-serif;
 }
@@ -56,17 +56,13 @@
 }
 
 .boton {
-  border: 1px solid white;
+  color: #B31312;
+  border: 1px solid rgb(224, 233, 224);
   padding: 15px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   border-radius: 15px;
-  color: #B31312;
-}
-.boton .boton:hover {
-  background-color: #B31312;
-  color: white;
 }
 
 .leer-mas {
@@ -74,10 +70,6 @@
   text-decoration: none;
   font-weight: bold;
   font-size: 15px;
-}
-
-.leer-mas:hover {
-  color: #B31312;
 }
 
 /*ropaindex*/
@@ -140,11 +132,11 @@
 
 /*zapatillas-pag*/
 .titulo-zapatillas {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   margin-top: 4.375rem;
   font-size: 30px;
-  display: flex;
-  flex-direction: column;
   color: #B31312;
   font-family: "Nike", sans-serif;
 }
@@ -165,11 +157,11 @@
 
 /*ropa pag*/
 .titulo-ropa {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   margin-top: 4.375rem;
   font-size: 30px;
-  display: flex;
-  flex-direction: column;
   color: #B31312;
   font-family: "Nike", sans-serif;
 }
@@ -188,18 +180,18 @@
   border-radius: 15px;
   color: #B31312;
 }
-.boton .boton:hover {
+.boton:hover {
   background-color: #B31312;
   color: white;
 }
 
 /*accesorios pag*/
 .titulo-accesorios {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   margin-top: 4.375rem;
   font-size: 30px;
-  display: flex;
-  flex-direction: column;
   color: #B31312;
   font-family: "Nike", sans-serif;
 }
@@ -213,7 +205,7 @@
   border-radius: 15px;
   color: #B31312;
 }
-.boton .boton:hover {
+.boton:hover {
   background-color: #B31312;
   color: white;
 }
@@ -261,7 +253,7 @@
   color: white;
   text-decoration: none;
 }
-.form-register p a:hover {
+.form-register p:hover {
   color: white;
   text-decoration: underline;
 }

@@ -15,7 +15,9 @@
 @import "./layout/main-contactos";
 @import "./layout/fondo-nike";
 @import "./layout/fondo-inicial";
-@import "./layout/bootstrap";
+
+
+@import "./components/bootstrap";
 
 @media (max-width: 768px){
     @import "./layout/mediaQuerry/media768";

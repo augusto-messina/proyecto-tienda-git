@@ -1,11 +1,9 @@
 /*zapatillas-pag*/
 
 .titulo-zapatillas{
-    text-align: center;
+    @include titulo;
     margin-top: 4.375rem;
     font-size: 30px;
-    display: flex;
-    flex-direction: column;
     color: map-get($colores, color1 );
     font-family: 'Nike', sans-serif;
 }
@@ -17,7 +15,7 @@
     text-decoration: none;
     display: inline-block;
     border-radius: 15px;
-    color: #B31312;
+    color: map-get($colores, color1 );
     .boton:hover{
         background-color: #B31312;
         color: white;
